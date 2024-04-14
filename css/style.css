@@ -187,6 +187,9 @@ h2 {
 
 
 .btn ul {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
     list-style: none;
     text-decoration: none;
     font-size: 16px;
@@ -234,12 +237,15 @@ h2 {
     color:#FFFFFF;
 }
 .footer {
+    background-color: #2F303A;
+    color: #FFFFFF;
+    padding-left: 90px;
 }
 .footer__logo a {
     text-decoration: none;
     list-style: none;
     font-family: Raleway;
-    color: #212121;  
+    color: #FFFFFF;  
     font-size: 26px;
     font-weight: 700;
     line-height: 30.52px;
@@ -269,6 +275,13 @@ h2 {
       
 }
 
+.footer__address-info a {
+    list-style: none;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
 
 
 .footer__address-info a:hover,
@@ -277,6 +290,7 @@ h2 {
 }
 
 .container {
+    display: flex;
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
@@ -296,4 +310,11 @@ h2 {
     justify-content: center;
     align-items: center;
 
+}
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
 }
