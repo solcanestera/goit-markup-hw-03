@@ -11,6 +11,13 @@
   
 }
 
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 .header__logo a {
     text-decoration: none;
     list-style: none;
@@ -33,6 +40,8 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 2%;
+    display: flex;
+    gap: 40px;
 }
 .header__navigation a {
     color:#212121;
@@ -52,6 +61,8 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 2%;
+    display: flex;
+    gap: 40px;
 }
 
 .header__info a {
@@ -69,12 +80,20 @@ body {
     color:#212121
 }
 
+.fisrst-section {
+    background-color: #2F303A;
+    justify-content: center;
+}
+
 .title {
     font-size: 44px;
     font-weight: 900;
     line-height: 60px;
     letter-spacing: 0.06em;
     text-align: center;
+    color:#FFFFFF;
+    
+   
 }
 
 .head-button {
@@ -84,6 +103,9 @@ body {
     letter-spacing: 0.06em;
     text-align: center;
     cursor: pointer;
+    background-color:#2196F3;
+    color:#FFFFFF;
+   align-items: center;
 
 }
 
@@ -227,4 +249,10 @@ h2 {
 .footer__address-info a:hover,
 .footer__address-info a:focus {
     color:#2196F3;
+}
+
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
