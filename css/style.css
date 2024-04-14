@@ -83,6 +83,10 @@ body {
 .fisrst-section {
     background-color: #2F303A;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1600px;
+
 }
 
 .title {
@@ -92,6 +96,8 @@ body {
     letter-spacing: 0.06em;
     text-align: center;
     color:#FFFFFF;
+    padding-top: 200px;
+    padding-bottom: 30px;
     
    
 }
@@ -105,7 +111,15 @@ body {
     cursor: pointer;
     background-color:#2196F3;
     color:#FFFFFF;
-   align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    margin-bottom: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+ 
 
 }
 
@@ -129,6 +143,12 @@ h3 {
 .description {
     list-style: none;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+
  
 }
 
@@ -139,6 +159,9 @@ h3 {
     line-height: 16.41px;
     letter-spacing: 0.03em;
     text-align: left;
+    width: 270px;
+    height: 16px;
+
 
 
 }
@@ -149,6 +172,8 @@ h3 {
     line-height: 24px;
     text-align: left;
     color: #757575; 
+    
+
 } 
 
 h2 {
@@ -255,4 +280,20 @@ h2 {
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.imagini1 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagini2 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
 }
